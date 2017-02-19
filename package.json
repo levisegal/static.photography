@@ -1,0 +1,19 @@
+{
+  "name": "static.photography",
+  "version": "0.1.0",
+  "description": "Tools for running a self-employeed photography business",
+  "main": "index.js",
+  "author": "Levi Segal <levi@clicktripz.com>",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "node_modules/.bin/jshint index.js lib/ || true",
+    "activate": "node ./lib/activate.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "inquirer": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.4",
+    "serverless": "^1.7.0"
+  }
+}
