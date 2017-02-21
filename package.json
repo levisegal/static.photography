@@ -6,7 +6,7 @@
   "author": "Levi Segal <levi@clicktripz.com>",
   "license": "MIT",
   "scripts": {
-    "pretest": "node_modules/.bin/jshint index.js lib/ || true",
+    "lint": "node_modules/.bin/jshint index.js lib/ || true",
     "activate": "node ./lib/activate.js"
   },
   "dependencies": {
